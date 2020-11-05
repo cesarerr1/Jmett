@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="20510" it="0" lt="20508" ct="0" ts="1602556328497" s="true" lb="GeneraANPR" rc="201" rm="HTTP/1.1 201" tn="ListrasNegras 1-1" dt="text" de="UTF-8" by="267" sby="0" sc="1" ec="0" ng="1" na="1" hn="QA-CESARROJAS">
+  <responseHeader class="java.lang.String">HTTP/1.1 201
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: text/html;charset=UTF-8
+Content-Length: 18
+Date: Tue, 13 Oct 2020 02:32:28 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+content-type: application/json
+Content-Length: 491
+</requestHeader>
+  <responseData class="java.lang.String">Retry Recovery OK!</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;incidenteModel&quot;: {&#xd;
+        &quot;folio&quot;: &quot;C5/20191125/01245&quot;,&#xd;
+        &quot;motivo&quot;: 4,&#xd;
+        &quot;usuario&quot;: &quot;C5952123&quot;&#xd;
+    },&#xd;
+    &quot;vehiculoInvolucradoModel&quot;: {&#xd;
+        &quot;placa&quot;: &quot;MNV321&quot;,&#xd;
+        &quot;idMarca&quot;: 10,&#xd;
+        &quot;idSubMarca&quot;: 5,&#xd;
+        &quot;modelo&quot;: 2018,&#xd;
+        &quot;idTipo&quot;: 20,&#xd;
+        &quot;color&quot;: &quot;ROJO&quot;,&#xd;
+        &quot;idProcedencia&quot;: 16,&#xd;
+        &quot;origen&quot;: 5,&#xd;
+        &quot;tipoLista&quot;: 1&#xd;
+    },&#xd;
+    &quot;averiguacionPrevia&quot;: &quot;C5C/123/123&quot;,&#xd;
+    &quot;observaciones&quot;: &quot;Ejemplo de obervaciones &quot;&#xd;
+}</queryString>
+  <java.net.URL>http://52.9.236.138:9295/api/placa/placas</java.net.URL>
+</httpSample>
+
+</testResults>

@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,SampleCount,ErrorCount,Hostname,IdleTime,Connect
+1602556328497,20510,GeneraANPR,201,HTTP/1.1 201,ListrasNegras 1-1,text,true,,267,0,1,1,http://52.9.236.138:9295/api/placa/placas,,20508,UTF-8,1,0,QA-CESARROJAS,0,0
